@@ -1,6 +1,6 @@
 from flask import Flask, render_template, redirect, url_for, request, flash
 from flask_sqlalchemy import SQLAlchemy
-from flask_login import UserMixin, LoginManager, login_required, login_user
+from flask_login import UserMixin, LoginManager, login_required, login_user,current_user
 import secrets
 
 app = Flask(__name__)
@@ -63,7 +63,7 @@ def login():
 @app.route('/profile')
 @login_required
 def profile():
-    return render_template('profile.html')
+    return render_template('profile.html',username=current_user.username)
 
 @app.route('/logout')
 @login_required
