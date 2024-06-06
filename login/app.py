@@ -1,12 +1,20 @@
-from flask import Flask, render_template, redirect, url_for, request, flash
+from flask import Flask, render_template, redirect, url_for, request, flash, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import UserMixin, LoginManager, login_required, login_user,current_user, logout_user
 import secrets
+import logging
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = secrets.token_hex(16)  # Generate a random 32-character string
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+# Configure logging
+app.logger.setLevel(logging.INFO)  # Set the logging level (e.g., DEBUG, INFO, WARNING)
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+file_handler = logging.FileHandler('app.log')  # Log to file
+file_handler.setFormatter(formatter)
+app.logger.addHandler(file_handler)
 
 db = SQLAlchemy(app)
 login_manager = LoginManager(app)
@@ -63,6 +71,7 @@ def login():
 @app.route('/profile')
 @login_required
 def profile():
+    app.logger.info("A user accessed the profile page")
     return render_template('profile.html',username=current_user.username)
 
 @app.route('/logout')
