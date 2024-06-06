@@ -51,6 +51,7 @@ def register():
             db.session.add(new_user)
             db.session.commit()
             flash('Registration successful! You can now log in.', 'success')
+            app.logger.info(f"create a new account account name is: {username}")
             return redirect(url_for('login'))
     return render_template('register.html')
 
@@ -63,6 +64,8 @@ def login():
         user = User.query.filter_by(username=username).first()
         if user and user.password == password:
             login_user(user)
+            app.logger.info(f"Successful login for user: {username}")
+
             return redirect(url_for('profile'))
         else:
             flash('Invalid username or password!', 'error')
