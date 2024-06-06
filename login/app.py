@@ -81,6 +81,8 @@ def profile():
 @login_required
 def logout():
     logout_user()
+    app.logger.info(f"Successful logout for user: {username}")
+
     return redirect(url_for('index'))
 
 if __name__ == '__main__':
