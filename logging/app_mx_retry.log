@@ -1,0 +1,63 @@
+2024-06-03 16:29:27,901 - INFO - A user accessed the home page
+2024-06-03 16:32:26,920 - INFO - Login endpoint hit
+2024-06-03 16:32:26,920 - INFO - Successful login for user: user1
+2024-06-03 16:32:26,920 - ERROR - Error during login attempt: name 'handler' is not defined
+2024-06-03 16:35:10,907 - INFO - Login endpoint hit
+2024-06-03 16:35:10,907 - INFO - Successful login for user: user1
+2024-06-03 16:35:10,907 - ERROR - Error during login attempt: name 'handler' is not defined
+2024-06-03 16:57:58,077 - INFO - A user accessed the home page
+2024-06-03 16:58:34,141 - INFO - Login endpoint hit
+2024-06-03 16:58:34,141 - INFO - Successful login for user: user1
+2024-06-03 16:58:34,141 - ERROR - Error during login attempt: name 'handler' is not defined
+2024-06-03 16:59:07,307 - INFO - Login endpoint hit
+2024-06-03 16:59:07,308 - INFO - Failed login attempt for user: user1
+2024-06-03 16:59:07,308 - ERROR - Error during login attempt: name 'handler' is not defined
+2024-06-03 16:59:23,740 - INFO - Login endpoint hit
+2024-06-03 16:59:23,741 - INFO - Failed login attempt for user: user1
+2024-06-03 16:59:23,741 - ERROR - Error during login attempt: name 'handler' is not defined
+2024-06-03 16:59:26,977 - INFO - Login endpoint hit
+2024-06-03 16:59:26,977 - INFO - Failed login attempt for user: user1
+2024-06-03 16:59:26,977 - ERROR - Error during login attempt: name 'handler' is not defined
+2024-06-03 16:59:30,158 - INFO - Login endpoint hit
+2024-06-03 16:59:30,159 - INFO - Failed login attempt for user: user1
+2024-06-03 16:59:30,159 - ERROR - Error during login attempt: name 'handler' is not defined
+2024-06-03 16:59:31,985 - INFO - Login endpoint hit
+2024-06-03 16:59:31,985 - INFO - User jailed due to too many failed attempts: user1, remaining lock time: 599 seconds
+2024-06-03 16:59:31,985 - ERROR - Error during login attempt: name 'handler' is not defined
+2024-06-03 17:00:28,661 - INFO - Login endpoint hit
+2024-06-03 17:00:28,661 - INFO - Login attempt for jailed user: user1, remaining lock time: 543 seconds
+2024-06-03 17:02:22,024 - INFO - A user accessed the home page
+2024-06-03 17:02:47,363 - INFO - Login endpoint hit
+2024-06-03 17:02:47,364 - INFO - Successful login for user: user1
+2024-06-03 17:02:47,364 - ERROR - Error during login attempt: name 'handler' is not defined
+2024-06-03 17:03:39,518 - INFO - Login endpoint hit
+2024-06-03 17:03:39,518 - INFO - Login attempt for non-existent user: user6
+2024-06-03 17:04:29,266 - INFO - Login endpoint hit
+2024-06-03 17:04:29,266 - INFO - Failed login attempt for user: user1
+2024-06-03 17:04:29,266 - ERROR - Error during login attempt: name 'handler' is not defined
+2024-06-03 17:04:56,297 - INFO - Login endpoint hit
+2024-06-03 17:04:56,297 - INFO - Successful login for user: user1
+2024-06-03 17:04:56,297 - ERROR - Error during login attempt: name 'handler' is not defined
+2024-06-03 17:06:54,604 - INFO - A user accessed the home page
+2024-06-03 17:07:17,959 - INFO - Login endpoint hit
+2024-06-03 17:07:17,959 - INFO - Successful login for user: user1
+2024-06-03 17:07:17,959 - ERROR - Error during login attempt: name 'handler' is not defined
+2024-06-03 17:28:12,594 - INFO - A user accessed the home page
+2024-06-03 17:28:46,154 - INFO - Successful login for user: user1
+2024-06-04 14:27:14,143 - INFO - A user accessed the home page
+2024-06-04 14:27:26,171 - INFO - Successful login for user: user1
+2024-06-04 15:31:35,828 - INFO - A user accessed the home page
+2024-06-04 15:32:09,472 - INFO - Successful login for user: user1
+2024-06-04 15:32:39,266 - INFO - Failed login attempt for user: user1
+2024-06-04 15:32:44,361 - INFO - Failed login attempt for user: user1
+2024-06-04 15:32:50,242 - INFO - Failed login attempt for user: user1
+2024-06-04 15:32:52,186 - INFO - Failed login attempt for user: user1
+2024-06-04 15:32:55,013 - INFO - User jailed due to too many failed attempts: user1, remaining lock time: 599 seconds
+2024-06-04 15:33:51,935 - INFO - Successful login for user: user1
+2024-06-04 15:34:02,915 - INFO - Failed login attempt for user: user1
+2024-06-04 15:34:48,516 - INFO - Successful login for user: user2
+2024-06-04 15:34:59,915 - INFO - Failed login attempt for user: user1
+2024-06-04 15:35:01,186 - INFO - User jailed due to too many failed attempts: user1, remaining lock time: 119 seconds
+2024-06-04 15:36:09,211 - INFO - Successful login for user: user3
+2024-06-04 15:36:18,877 - INFO - Login attempt for jailed user: user1, remaining lock time: 42 seconds
+2024-06-04 15:37:46,815 - INFO - Successful login for user: user1

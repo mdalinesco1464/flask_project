@@ -15,11 +15,13 @@ app.logger.addHandler(file_handler)
 
 # In-memory user data store
 users = {
-    'user1': {'password': 'password123', 'failed_attempts': 0, 'jail_until': 0}
+    'user1': {'password': 'password123', 'failed_attempts': 0, 'jail_until': 0},
+    'user2': {'password': 'password456', 'failed_attempts': 0, 'jail_until': 0},
+    'user3': {'password': 'password789', 'failed_attempts': 0, 'jail_until': 0}
 }
 
-MAX_RETRY = 5
-JAIL_TIME = 600  # seconds
+MAX_RETRY = 3
+JAIL_TIME = 120  # seconds
 
 def authenticate(username, password):
     user = users.get(username)

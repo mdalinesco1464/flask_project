@@ -1,0 +1,103 @@
+2024-06-06 11:02:43,506 - INFO - A user accessed the profile page
+2024-06-06 11:23:51,833 - INFO - Successful login for user: younus
+2024-06-06 11:23:51,855 - INFO - A user accessed the profile page
+2024-06-06 11:25:00,974 - INFO - create a new account account name is: abu
+2024-06-06 11:25:08,853 - INFO - Successful login for user: younus
+2024-06-06 11:25:08,876 - INFO - A user accessed the profile page
+2024-06-06 11:25:35,273 - INFO - Successful login for user: abu
+2024-06-06 11:25:35,347 - INFO - A user accessed the profile page
+2024-06-06 11:28:00,879 - INFO - Successful login for user: abu
+2024-06-06 11:28:00,905 - INFO - A user accessed the profile page
+2024-06-06 11:37:28,902 - INFO - Successful login for user: younus
+2024-06-06 11:37:28,927 - INFO - A user accessed the profile page
+2024-06-06 11:37:41,533 - INFO - Successful login for user: abu
+2024-06-06 11:37:41,568 - INFO - A user accessed the profile page
+2024-06-06 11:39:37,707 - INFO - Successful login for user: abu
+2024-06-06 11:39:37,731 - INFO - A user accessed the profile page
+2024-06-06 11:46:08,559 - INFO - Successful login for user: abu
+2024-06-06 11:46:08,583 - INFO - A user accessed the profile page
+2024-06-06 11:46:10,344 - INFO - Successful logout for user: None
+2024-06-06 11:47:42,625 - INFO - Successful login for user: abu
+2024-06-06 11:47:42,650 - INFO - A user accessed the profile page
+2024-06-06 11:47:43,661 - INFO - Successful logout for user: None
+2024-06-06 11:51:00,415 - INFO - Successful login for user: abu
+2024-06-06 11:51:00,442 - INFO - A user accessed the profile page
+2024-06-06 11:51:01,832 - INFO - Successful logout for user: None
+2024-06-06 11:59:58,508 - INFO - Successful login for user: abu
+2024-06-06 11:59:58,534 - INFO - A user accessed the profile page
+2024-06-06 12:00:00,812 - INFO - Session before logout: <SecureCookieSession {'_fresh': True, '_id': 'bac6e34c244f910b55a81b9cefe5c9cb01f3949785b910586e09e70d5e57777bb5922ebf7371866bb69907bb9294b464465507569b6207f29ab41016e6620f5d', '_user_id': '2'}>
+2024-06-06 12:02:01,132 - INFO - Successful login for user: younus
+2024-06-06 12:02:01,156 - INFO - A user accessed the profile page
+2024-06-06 12:02:02,492 - INFO - Session before logout: None
+2024-06-06 12:04:32,451 - INFO - Successful login for user: abu
+2024-06-06 12:04:32,479 - INFO - A user accessed the profile page
+2024-06-06 12:04:33,600 - INFO - Session before logout: None
+2024-06-06 12:06:00,882 - INFO - Successful login for user: younus
+2024-06-06 12:06:00,908 - INFO - A user accessed the profile page
+2024-06-06 12:13:22,117 - INFO - Successful login for user: abu
+2024-06-06 12:13:22,142 - INFO - A user accessed the profile page
+2024-06-06 12:13:25,024 - INFO - No user is currently logged in.
+2024-06-06 12:47:28,859 - INFO - Successful login for user: abu
+2024-06-06 12:47:28,884 - INFO - A user accessed the profile page
+2024-06-06 12:47:30,511 - INFO - Successful logout for user: None
+2024-06-06 13:30:01,911 - INFO - create a new account account name is: younus
+2024-06-06 13:30:06,691 - INFO - Successful login for user: younus
+2024-06-06 13:30:06,720 - INFO - A user accessed the profile page
+2024-06-06 13:30:43,205 - INFO - Successful logout for user: None
+2024-06-06 17:20:12,565 - INFO - Successful login for user: younus
+2024-06-06 17:20:12,590 - INFO - A user accessed the profile page
+2024-06-06 17:20:13,965 - INFO - Successful logout for user: None
+2024-06-06 17:20:25,942 - INFO - Failed login attempt for user: younus
+2024-06-06 17:20:43,768 - INFO - Failed login attempt for user: younus
+2024-06-06 17:22:38,764 - INFO - Login attempt for non-existent user: abu
+2024-06-06 17:22:46,209 - INFO - Login attempt for non-existent user: abu
+2024-06-06 17:23:01,924 - INFO - Login attempt for non-existent user: abu
+2024-06-06 17:23:11,136 - INFO - Login attempt for non-existent user: abu
+2024-06-06 17:23:40,643 - INFO - Login attempt for non-existent user: abu
+2024-06-06 17:44:50,550 - INFO - Failed login attempt for user: younus
+2024-06-06 17:45:13,496 - INFO - Failed login attempt for user: younus
+2024-06-06 17:45:27,336 - INFO - Failed login attempt for user: younus
+2024-06-06 17:45:39,572 - INFO - Failed login attempt for user: younus
+2024-06-06 17:45:52,406 - INFO - Failed login attempt for user: younus
+2024-06-06 17:48:49,348 - INFO - Failed login attempt for user: younus
+2024-06-06 17:49:00,644 - INFO - Locked account login attempt: younus
+2024-06-06 17:49:08,492 - INFO - Locked account login attempt: younus
+2024-06-06 17:49:45,047 - INFO - Locked account login attempt: younus
+2024-06-06 17:52:15,584 - INFO - Successful login for user: younus
+2024-06-06 17:52:15,609 - INFO - A user accessed the profile page
+2024-06-06 17:52:21,018 - INFO - Successful logout for user: None
+2024-06-06 17:52:28,856 - INFO - Login attempt for non-existent user: abu
+2024-06-06 17:52:37,656 - INFO - Login attempt for non-existent user: abu
+2024-06-06 17:53:07,006 - INFO - Login attempt for non-existent user: abu
+2024-06-06 17:53:28,189 - INFO - Login attempt for non-existent user: abu
+2024-06-06 17:54:44,669 - INFO - Created a new account with username: abu
+2024-06-06 17:54:50,174 - INFO - Successful login for user: abu
+2024-06-06 17:54:50,201 - INFO - A user accessed the profile page
+2024-06-06 17:54:53,017 - INFO - Successful logout for user: None
+2024-06-06 17:55:03,343 - INFO - Failed login attempt for user: abu
+2024-06-06 17:55:13,605 - INFO - Failed login attempt for user: abu
+2024-06-06 17:55:20,230 - INFO - Locked account login attempt: abu
+2024-06-06 17:55:38,141 - INFO - Locked account login attempt: abu
+2024-06-06 17:55:42,977 - INFO - Successful login for user: younus
+2024-06-06 17:55:42,997 - INFO - A user accessed the profile page
+2024-06-06 17:57:49,830 - INFO - Successful logout for user: None
+2024-06-06 17:57:54,862 - INFO - Successful login for user: abu
+2024-06-06 17:57:54,880 - INFO - A user accessed the profile page
+2024-06-07 22:21:22,901 - INFO - Failed login attempt for user: younus
+2024-06-07 22:21:34,171 - INFO - Failed login attempt for user: younus
+2024-06-07 22:21:45,721 - INFO - Locked account login attempt: younus
+2024-06-07 22:22:18,221 - INFO - Successful login for user: abu
+2024-06-07 22:22:18,230 - INFO - A user accessed the profile page
+2024-06-07 22:27:59,720 - INFO - Failed login attempt for user: abu
+2024-06-07 22:28:05,185 - INFO - Failed login attempt for user: abu
+2024-06-07 22:28:10,042 - INFO - Locked account login attempt: abu
+2024-06-07 22:56:02,442 - INFO - Failed login attempt for user: younus
+2024-06-07 22:56:12,754 - INFO - Locked account login attempt: younus
+2024-06-07 22:58:51,588 - INFO - Failed login attempt for user: abu
+2024-06-07 22:58:59,286 - INFO - Locked account login attempt: abu
+2024-06-07 22:59:46,696 - INFO - Locked account login attempt: abu
+2024-06-07 23:00:17,539 - INFO - Failed login attempt for user: younus
+2024-06-07 23:00:27,188 - INFO - Locked account login attempt: younus
+2024-06-07 23:02:15,840 - INFO - Locked account login attempt: younus
+2024-06-14 14:45:44,089 - INFO - Successful login for user: abu
+2024-06-14 14:45:44,110 - INFO - A user accessed the profile page

@@ -1,0 +1,1 @@
+After flask 3 project i switch my project tech stack django for security and market demand 
